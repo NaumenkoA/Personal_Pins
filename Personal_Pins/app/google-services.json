@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1038704217061",
+    "firebase_url": "https://personal-pins-24600.firebaseio.com",
+    "project_id": "personal-pins-24600",
+    "storage_bucket": "personal-pins-24600.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038704217061:android:6aa069abdaa72a6c",
+        "android_client_info": {
+          "package_name": "com.example.alex.personalpins"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038704217061-nvabqde2cvo7tf3b497ck7gvcq4hos61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcmBOO0Rrfcw_70r8UA-zoGUzT6sN-cGo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

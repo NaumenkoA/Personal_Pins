@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pinCardView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        card_view:cardCornerRadius="2dp"
+        app:cardPreventCornerOverlap="true"
+        card_view:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        card_view:cardBackgroundColor="#e8e5ee">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            tools:text = "Pin name"
+            android:id="@+id/pinTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bdaffd"
+            android:gravity="center"
+            android:textColor="#2e13a7"
+            android:textStyle="bold|italic"
+            android:textSize="25sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/pinImageView"
+            android:contentDescription="@string/pin_image"
+            android:transitionName="pinImage"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/playImageView"
+            android:contentDescription="@string/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play_arrow_white_36dp"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            tools:text = "Some comment to this pin. Very very great, exciting pin."
+            android:id="@+id/pinCommentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <TextView
+            tools:text = "Test, pin, tag"
+            android:id="@+id/pinTagsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+

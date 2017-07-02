@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Personal Pins</string>
+    <string name="scaled_image_view">scaled image view</string>
+    <string name="enter_pin_title_hint">Enter pin title here...</string>
+    <string name="enter_comment_hint">Enter comment to your pin here...</string>
+    <string name="tags">Tags: </string>
+    <string name="create_pin">CREATE PIN</string>
+    <string name="new_photo">New photo</string>
+    <string name="select_photo">Select photo from gallery</string>
+    <string name="new_video">New video</string>
+    <string name="select_video">Select video from collection</string>
+    <string name="enter_tag_hint">Enter new tag here...</string>
+    <string name="submit">Submit</string>
+    <string name="board_image">Board image</string>
+    <string name="pin_image">Pin image</string>
+    <string name="play">Play</string>
+    <string name="search">search</string>
+    <string name="select_tags_to_search_pins">Select tags to search pins:</string>
+    <string name="add_boards_hint">Add some boards first</string>
+    <string name="add_pins_hint">Add some new pins</string>
+    <string name="add_tags_hint">Add some new tags first</string>
+    <string name="filter_pins_hint">Pins with tag(s): %1$s</string>
+    <string name="no_pins_with_such_tags_were_found">No pins with such tags were found</string>
+</resources>
